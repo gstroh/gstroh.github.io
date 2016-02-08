@@ -34,7 +34,7 @@ module.exports = function(grunt) {
         },
         files: [{
           expand: true,
-          src: ['compass.jpg'],
+          src: ['compass.jpg','minard.jpg','UdacityLogo.jpg','curve.jpg'],
           cwd: 'src/images/',
           dest: 'src/images/'
         }]
