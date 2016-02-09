@@ -45,14 +45,9 @@ module.exports = function(grunt) {
       dynamic: {
         files: [{
          expand: true,                        // Enable dynamic expansion
-         cwd: 'src/img/',                     // Src matches are relative to this path
+         cwd: 'src/images/',                  // Src matches are relative to this path
          src: ['**/*.{png,jpg,gif}'],         // Actual patterns to match
-         dest: 'dist/img/'                    // Destination path prefix
-        },{
-         expand: true,                        // Enable dynamic expansion
-         cwd: 'src/views/images/',                // Src matches are relative to this path
-         src: ['**/*.{png,jpg,gif}'],                  // Actual patterns to match
-         dest: 'dist/views/images/'           // Destination path prefix
+         dest: 'dist/images/'                 // Destination path prefix
         }]
       }
     },
