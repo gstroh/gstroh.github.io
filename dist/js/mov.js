@@ -1,0 +1,1 @@
+var model={},octopus={init:function(){view.init()}},view={init:function(){this.render()},render:function(){}};octopus.init();

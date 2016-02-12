@@ -79,8 +79,7 @@ module.exports = function(grunt) {
     uglify: {
       my_target: {
         files: {
-          'dist/views/js/main.js': ['src/views/js/main.js'],
-          'dist/js/perfmatters.js': ['src/js/perfmatters.js']
+          'dist/js/mov.js': ['src/js/mov.js']
         }
       }
     },
