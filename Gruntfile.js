@@ -99,11 +99,10 @@ module.exports = function(grunt) {
       },
     },
 
-// Pizza.html now has CSS inlined from results of running this on original pizza.html
      uncss: {
       dist: {
         files: [
-          //{dest: 'dev/views/css/styleALL.css', src: 'src/views/pizza.html'}
+          {dest: 'dev/css/styleALL.css', src: 'src/index.html'}
         ]
       }
     }
